@@ -6,7 +6,7 @@ import { EditionMetadataWithOwnerOutputSchema } from '@thirdweb-dev/sdk';
 const StateContext = createContext();
 
 export const StateContextProvider = ({ children }) => {
-    const { contract } = useContract("0x363E060e84f5dCa31B6B110BFD7b6A8a0A354790");
+    const { contract } = useContract("0x000000000000000000000000000");
 
     const address = useAddress();
     const connect = useMetamask();
